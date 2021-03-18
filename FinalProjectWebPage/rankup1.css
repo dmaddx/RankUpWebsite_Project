@@ -1,0 +1,93 @@
+* { box-sizing: border-box; }
+header { background-color: #003399; }
+header img { float: left;
+			 width: 250px;
+			 height: 100px;
+			 background: #003399;
+			 font-size: 20px;
+			 color: #D3D3D3;
+			 padding: 20px 30px;
+}
+header h1 { position: relative;
+			top: 25px;
+			color: #D3D3D3;
+			font-size: 80px;
+			font-family: "Lucida Grande", sans-serif;
+			letter-spacing: 1px; 
+			text-align: center;
+			margin: 0; }
+div h2 { margin-top: 10px;
+		 font-size: 28px;
+}
+
+nav { display: block;
+	  background-color: #D3D3D3;
+	  padding-right: 10px;
+	  font-size: 1.5em;
+	  float: left;
+	  float: clear;
+}
+nav a:hover { display: block;
+			  border-radius: 15px;
+			  background-color: #808080; 
+}
+nav a:visited { color: #0000CC; }
+nav ul { list-style-type: none;
+	     margin: 0;
+	     padding: 15px; 
+}
+nav ul li a { display: block;
+			  color: #FFFFFF;
+			  background-color: #A9A9A9;
+			  border-radius: 15px;
+			  padding-left: 15px;
+			  padding-right: 15px;
+			  margin-bottom: 1.3em; 
+}
+
+footer { text-align: center;
+		 font-size: small;
+	     font-style: italic;
+		 height: 30px;
+		 background-color: #D3D3D3;
+}
+footer div { padding-top: 5px; }
+a #kidsinfoblock, a #adultinfoblock { display: inline-block;
+									  vertical-align: top;
+									  height: 320px;
+									  width: 400px;
+									  text-decoration: none;
+ }
+img #adultinfoblock { display: inline; }
+.rankupinfo { display: block;
+			  text-align: center; 
+			  margin-top: 100px;}
+.clearleft { clear: left; }
+.centerarea { text-align: center; }
+.clickherebutton { list-style-type: none;
+				   color: #FFFFFF;
+				   background-color: #A9A9A9;
+		           border-radius: 15px;
+				   font-size: 35px;
+				   margin-left: 80px;
+				   margin-right: 80px;
+				   padding: 0;
+}
+
+#kidsinfoblock { background-color: #003399;
+				 color: #D3D3D3;
+				 margin-right: 10px;
+}
+
+#adultinfoblock { background-color: #D3D3D3;
+				  color: #003399; 
+				  margin-left: 10px;
+}
+#adultinfoblock .clickherebutton { margin-top: 70px; }
+#karatematimg { background-color: #FFFFFF;
+				width: 70%;
+				height: 100%;
+				background-size: 100% 100%;
+				color: #000000;
+				font-size: 20px;
+}

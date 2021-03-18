@@ -1,0 +1,66 @@
+header, nav, footer, 
+#karatematimg, #visitus, #kidsinfoblock, 
+#adultinfoblock, #videoblock, #signupbutton, .breadcrumb { display: none; }
+body { color: #000000;
+	   font-size: 14pt;
+	   background-image: none;
+	   background-color: #FFFFFF; }
+table { border: solid #000000 !important;
+		border-width: 1px 0 0 1px !important;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		table-layout: fixed; }
+td { width: 130px;
+	 text-align: center; 
+	 padding: 5px; 
+	 border: 1px solid #000000; }
+thead th { padding: 5px 0;
+		   background-color: #203864 !important;
+		   box-shadow: inset 0 0 0 1000px #203864;
+		   text-shadow: 0 0 0 #FFFFFF !important;
+		   color: #FFFFFF !important; 
+		   border: 1px solid #000000; }
+th, td { border: solid #000000 !important;
+		 border-width: 0 1px 1px 0 !important; }
+#eventflyer { display: none; }
+tbody #classschedule { width: 280px;
+					   text-align: left;
+				       font-weight: bold; 
+					   padding: 10px 5px;}
+tbody #sat { background-color: #D9E2F3;
+			 box-shadow: inset 0 0 0 1000px #D9E2F3;
+			 width: 120px; }
+tbody #sun { width: 80px; }
+.landscape { -webkit-transform: rotate(-90deg); }
+.landscape br { display: none; }
+.landscape .rankupinfo { display: none; }
+.ltbluschedule { background-color: #B3C6E7; 
+				 box-shadow: inset 0 0 0 1000px #B3C6E7; }
+.medbluschedule { background-color: #2E5495; 
+				  color: #FFFFFF;
+				  box-shadow: inset 0 0 0 1000px #2E5495; }
+.textbody br { display: none; }
+.instructorphoto { display: block;
+				   border: 1px solid #000000;
+				   width: 200px;
+				   height: 300px;
+				   margin-right: auto;
+				   margin-left: auto; 
+				   text-align: center; }
+.bottomborder { border-bottom: 2px solid #000000; }
+.centertext { text-align: center;
+			  }
+.centerarea { margin-left: auto;
+			  margin-right: auto; }
+.rankupinfo { display: block;
+			  text-align: center; 
+			  margin-top: 100px;
+			  margin-bottom: 30px;
+}
+.rankupinfo a { color: #000000;
+				text-decoration: none; }
+.contactp { margin: 15px 0 0 50px; }
+.contactp a { color: #000000;
+			  text-decoration: none;  }
+.bottomborder { page-break-after: always; }
